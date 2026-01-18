@@ -1,0 +1,102 @@
+# Environment Files
+.env
+.env.local
+.env.*.local
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / Packaging
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+*.tar.gz
+wheelhouse/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# IDE - VSCode
+.vscode/
+.vscode-test
+*.code-workspace
+
+# IDE - PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE - Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+streamlit_app.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Project Specific
+Response.json
+data.txt
+*.csv
+
+# Experiment notebooks (may contain sensitive data in outputs)
+experiment/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

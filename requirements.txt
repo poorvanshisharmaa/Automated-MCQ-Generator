@@ -1,0 +1,11 @@
+openai
+langchain
+langchain-openai
+langchain-groq
+langchain-community
+streamlit
+python-dotenv
+PyPDF2
+
+
+-e .
